@@ -26,7 +26,7 @@ const {
 } = require('baileys');
 
 // ---------------- CONFIG ----------------
-const BOT_NAME_FREE = 'DARKX-ULTRA';
+const BOT_NAME_FREE = 'ғʀᴇᴇ-ᴍɪɴɪ';
 
 const config = {
   AUTO_VIEW_STATUS: 'true',
@@ -35,7 +35,7 @@ const config = {
   AUTO_LIKE_EMOJI: ['🎈','👀','❤️‍🔥','💗','😩','☘️','🗣️','🌸'],
   PREFIX: '.',
   MAX_RETRIES: 3,
-  GROUP_INVITE_LINK: 'https://chat.whatsapp.com/CH0c5pLLqJnC2LSezaYTVS',
+  GROUP_INVITE_LINK: 'https://chat.whatsapp.com/Dh7gxX9AoVD8gsgWUkhB9r',
   FREE_IMAGE: 'https://files.catbox.moe/f9gwsx.jpg',
   NEWSLETTER_JID: '120363402507750390@newsletter', // replace with your own newsletter its the main newsletter
   
@@ -69,11 +69,11 @@ const config = {
   ],
   
   OTP_EXPIRY: 300000,
-  OWNER_NUMBER: process.env.OWNER_NUMBER || '255775710774',
-  CHANNEL_LINK: 'https://whatsapp.com/channel/0029VbCdURHH5JM4JJHYAo2X',
-  BOT_NAME: 'DARKX-ULTRA',
+  OWNER_NUMBER: process.env.OWNER_NUMBER || '263714757857',
+  CHANNEL_LINK: 'https://whatsapp.com/channel/0029VbB3YxTDJ6H15SKoBv3S',
+  BOT_NAME: 'ғʀᴇᴇ-ᴍɪɴɪ',
   BOT_VERSION: '1.0.2',
-  OWNER_NAME: 'MrX Dev',
+  OWNER_NAME: 'ᴍʀ xᴅᴋɪɴɢ',
   IMAGE_PATH: 'https://files.catbox.moe/f9gwsx.jpg',
   BOT_FOOTER: '> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ',
   BUTTON_IMAGES: { ALIVE: 'https://files.catbox.moe/f9gwsx.jpg' }
