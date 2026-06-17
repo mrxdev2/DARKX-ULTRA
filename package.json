@@ -1,7 +1,7 @@
 {
-  "name": "DARKX-ULTRA",
+  "name": "darkx-ultra-bot",
   "version": "1.0.2",
-  "description": "A WhatsApp Bot with Multi-Number Support",
+  "description": "DarkX-Ultra WhatsApp Bot with Multi-Number Support",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -42,7 +42,7 @@
     "bot",
     "multi-device",
     "baileys",
-    "malvin-xd"
+    "darkx-ultra"
   ],
   "author": "MrX Dev",
   "license": "MIT"

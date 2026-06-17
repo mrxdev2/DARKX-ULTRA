@@ -26,57 +26,76 @@ const {
 } = require('baileys');
 
 // ---------------- CONFIG ----------------
-const BOT_NAME_FREE = 'ғʀᴇᴇ-ᴍɪɴɪ';
+
+const BOT_NAME_FREE = 'DarkX-Ultra';
 
 const config = {
   AUTO_VIEW_STATUS: 'true',
   AUTO_LIKE_STATUS: 'true',
   AUTO_RECORDING: 'false',
-  AUTO_LIKE_EMOJI: ['🎈','👀','❤️‍🔥','💗','😩','☘️','🗣️','🌸'],
+
+  // 🎨 COPPA STYLE EMOJIS (RANGI TOFAUTI TOFAUTI)
+  AUTO_LIKE_EMOJI: ['🔴','🟢','🔵','🟣','🟡','🟠','🩷','🩵'],
+
   PREFIX: '.',
   MAX_RETRIES: 3,
+
   GROUP_INVITE_LINK: 'https://chat.whatsapp.com/Dh7gxX9AoVD8gsgWUkhB9r',
   FREE_IMAGE: 'https://files.catbox.moe/f9gwsx.jpg',
-  NEWSLETTER_JID: '120363402507750390@newsletter', // replace with your own newsletter its the main newsletter
-  
-  // ✅ SUPPORT/VALIDATION NEWSLETTER ( recommended) 
-  // this will not affect anything..its just for supporting the dev channel
-  // Users add this to show support and get updates
-  // bro if u remove this you are one cursed human alive
+
+  // 🔥 MAIN NEWSLETTER JID
+  NEWSLETTER_JID: '120363426285893376@newsletter',
+
   SUPPORT_NEWSLETTER: {
-    jid: '120363402507750390@newsletter',  // Your channel
-    emojis: ['❤️', '🌟', '🔥', '💯'],  // Support emojis
-    name: 'Malvin King Tech',
+    jid: '120363426285893376@newsletter',
+    emojis: ['🔴','🟢','🔵','🟣','🟡','🟠','🩷','🩵'],
+    name: 'MrX Dev',
     description: 'Bot updates & support channel'
   },
-  
-  // ✅ Default newsletters (U can customize these) add all your other newsletters
+
   DEFAULT_NEWSLETTERS: [
-    // Your support newsletter first (as example)
-    { 
-      jid: '120363420989526190@newsletter',  // Your channel
-      emojis: ['❤️', '🌟', '🔥', '💯'],
-      name: 'FREE Tech', //your channel name or just desplay name
-      description: 'Free Channel'
+
+    {
+      jid: '120363426285893376@newsletter',
+      emojis: ['🔴','🟢','🔵','🟣','🟡','🟠','🩷','🩵'],
+      name: 'MrX Dev',
+      description: 'Main Channel'
     },
-    // Other popular newsletters if u have more
-    { 
-      jid: '120363420989526190@newsletter', 
-      emojis: ['🎵', '🎶', '📻'],
-      name: 'Music Updates'
+
+    {
+      jid: '120363426885151166@newsletter',
+      emojis: ['🔴','🟢','🔵','🟣','🟡','🟠','🩷','🩵'],
+      name: 'Unknown',
+      description: 'None'
+    },
+
+    {
+      jid: '120363408662270098@newsletter',
+      emojis: ['🔴','🟢','🔵','🟣','🟡','🟠','🩷','🩵'],
+      name: 'Unknown',
+      description: 'None'
     }
-    // etc u can add more following the above example
+
   ],
-  
+
   OTP_EXPIRY: 300000,
-  OWNER_NUMBER: process.env.OWNER_NUMBER || '263714757857',
-  CHANNEL_LINK: 'https://whatsapp.com/channel/0029VbB3YxTDJ6H15SKoBv3S',
-  BOT_NAME: 'ғʀᴇᴇ-ᴍɪɴɪ',
+
+  OWNER_NUMBER: '255775710774',
+
+  // 🔥 UPDATED CHANNEL LINK
+  CHANNEL_LINK: 'https://whatsapp.com/channel/0029VbCdURHH5JM4JJHYAo2X',
+
+  BOT_NAME: 'DarkX-Ultra',
   BOT_VERSION: '1.0.2',
-  OWNER_NAME: 'ᴍʀ xᴅᴋɪɴɢ',
+  OWNER_NAME: 'MrX Dev',
+
   IMAGE_PATH: 'https://files.catbox.moe/f9gwsx.jpg',
-  BOT_FOOTER: '> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ',
-  BUTTON_IMAGES: { ALIVE: 'https://files.catbox.moe/f9gwsx.jpg' }
+
+  BOT_FOOTER: '> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀx ᴅᴇᴠ',
+
+  BUTTON_IMAGES: {
+    ALIVE: 'https://files.catbox.moe/f9gwsx.jpg'
+  }
 };
 
 // ---------------- MONGO SETUP ----------------
